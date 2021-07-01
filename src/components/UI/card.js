@@ -3,9 +3,9 @@ import './card.css';
 
 
 function Card(props){
-    console.log(props.children);
+    // console.log(props.children);
     const classes = 'card ' + props.className;
-    console.log(classes);
+    // console.log(classes);
     return <div className={classes}>{props.children}</div>;
 }
 
